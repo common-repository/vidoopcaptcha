@@ -1,0 +1,47 @@
+
+input#code {
+	font-size: 2em;
+	margin: 0.5em auto;
+	width: 3em;
+	margin-left: 50px;
+	text-align: center;
+}
+
+#vidoop_secured { margin: 0; padding: 0; }
+#vidoop_secured a {
+	display: block; float: right;
+	text-indent: -9999px;
+	background: url('./images/secured.png');
+	width: 100px; height: 39px;
+	position:relative; bottom: 35px;
+}
+
+#vidoop_captcha img {
+	border: 1px solid #000;
+	max-width: 450px;
+}
+
+#vidoop_captcha #categories {
+	padding: 0 0 0 1.5em;
+	margin-bottom: 0;
+}
+#vidoop_captcha #categories li {
+	margin-bottom: 1em;
+	font-size: 120%;
+}
+#vidoop_captcha #categories li strong {
+	background-color: #EAF2FA;
+	padding: 4px 7px;
+}
+
+#submit {
+	margin: 0 auto;
+}
+
+.error {
+	background-color: #FFFBCC;
+	border: 1px solid #E6DB55;
+	padding: 4px 7px;
+	text-align: center;
+}
+	
